@@ -1,0 +1,26 @@
+# Codeforces Question; Python
+
+def  a_b(n):
+    min=float('inf')
+    ra,rb=None,None
+    for b in range(n+1):
+        a=n-2*b
+        if a>0:
+            diff=abs(a-b)
+            if diff<min:
+                min=diff
+                ra,rb=a,b
+    return ra,rb
+
+numbers=[]
+for i in range(6):
+    numbers.append(int(input("Enter the number : ")))
+
+print(numbers)
+
+for j in numbers:
+    a,b=a_b(j)
+    print(f"For the number{j}, a={a}, b={b}")
+
+
+
