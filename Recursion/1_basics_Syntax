@@ -1,0 +1,10 @@
+# Introduction to Recursion
+
+def Recursive_Function():
+    #Some Code 
+    if ("Some Codition"):       #Stopping Codition or Base Condition
+        return # Something 
+    # Some code 
+    return Recursive_Function("Something")   # Recursive call
+
+Some_Variable=Recursive_Function()     #Call of the Function
