@@ -6,4 +6,4 @@ It Contains The File in the Form of Jupyter Notebooks (.ipynb)
 <br>
 So Kindly Don't refer the code and Refer the preview 
 <br>
-for programs Refer the Repo named as "Python Learning Programs"
+for programs in .py format Refer the Repo named as "Python Learning Programs"
